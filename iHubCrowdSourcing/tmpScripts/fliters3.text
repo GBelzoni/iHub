@@ -1,0 +1,313 @@
+//May want to alter this
+twitter.user.time_zone == "Nairobi"
+
+AND
+
+//DS_PoliticalPtyAcronyms.txt
+
+twitter.text contains_any "CORDed"
+
+OR
+twitter.text contains_any "Bomas"
+
+OR
+
+twitter.hashtags contains_any "TNA"
+OR
+twitter.hashtags contains_any "CORD"
+
+OR
+
+twitter.hashtags contains_any "NARC"
+
+OR
+twitter.text contains_any "rigging"
+OR
+twitter.text contains_any "tallying"
+OR
+twitter.text contains_any "Supreme Court"
+OR
+
+//DS_PoliticianName.txt
+
+twitter.text contains_any "Raila"
+
+OR
+
+twitter.text contains_any "Odinga"
+
+OR
+
+twitter.text contains_any "Uhuru Kenyatta"
+
+OR
+
+twitter.text contains_any "Kenyatta"
+
+OR
+
+twitter.text contains_any "Peter Kenneth"
+
+OR
+
+twitter.text contains_any "Kiyiapi"
+
+OR
+
+twitter.text contains_any "Kiyapi"
+
+OR
+
+twitter.text contains_any "Ole Kiyiapi"
+
+OR
+
+twitter.text contains_any "Karua"
+
+OR
+
+twitter.text contains_any "Mudavadi"
+
+OR
+
+twitter.text contains_any "Muite"
+
+OR
+
+
+twitter.text contains_any "Dida"
+
+OR
+
+twitter.text contains_any "Jimnah Mbaru"
+
+OR
+
+twitter.text contains_any "Kabogo"
+
+OR
+
+twitter.text contains_any "Kidero"
+
+OR
+
+twitter.text contains_any "Waititu"
+
+OR
+
+twitter.text contains_any "Kisia"
+
+OR
+
+twitter.text contains_any "Uhuru's Day"
+OR
+
+
+//DS_PtySlogans.txt
+
+twitter.text contains_any "Tunawesmake"
+
+OR
+
+twitter.text contains_any "Jitokeze"
+
+OR
+
+twitter.hashtags contains_any "Jubilee"
+
+OR
+
+twitter.hashtags contains_any "CORD"
+
+OR
+
+twitter.text contains_any "Amani"
+
+OR
+
+twitter.text contains_any "Eagle Alliance"
+
+OR
+
+twitter.hashtags contains_any "CORDed"
+
+
+
+OR
+
+twitter.text contains_any "NARC-K"
+
+OR
+
+twitter.text contains_any "TukoTayari"
+
+OR
+
+twitter.text contains_any "RailaTosha"
+
+OR
+
+twitter.text contains_any "Tayari"
+
+OR
+
+twitter.text contains_any "Jakom"
+
+OR
+
+twitter.text contains_any "Tuko Pamoja"
+
+OR
+
+twitter.text contains_any "ICC Suspects"
+
+OR
+
+twitter.text contains_any "UhuRuto"
+
+OR
+
+//DS_ShengSwahili.txt
+
+twitter.text contains_any "Railonzo"
+
+OR
+
+
+
+twitter.text contains_any "BabaJimmy"
+
+OR
+
+twitter.text contains_any "Baba Yao"
+
+OR
+
+twitter.text contains_any "Manzi Wa Nairobi"
+
+OR
+
+
+twitter.text contains_any "Waititu"
+
+OR
+
+
+
+twitter.text contains_any "Shebesh"
+
+OR
+
+
+twitter.text contains_any "kura"
+
+
+OR
+twitter.text contains_any "Sonko"
+OR
+
+//DS_KenyanTribes.txt
+
+twitter.text contains_any "Kikuyu"
+OR
+twitter.text contains_any "Kamba" 
+OR
+twitter.text contains_any "Luo"
+OR
+twitter.text contains_any "Kisii"
+OR
+twitter.text contains_any "Kalenjin"
+OR
+twitter.text contains_any "Somali"
+OR
+twitter.text contains_any "Luhya"
+OR
+twitter.text contains_any "Turkana"
+OR
+twitter.text contains_any "Maasai"
+OR
+twitter.text contains_any "Mijikenda"
+OR
+twitter.text contains_any "Embu"
+OR
+twitter.text contains_any "Mbeere"
+OR
+twitter.text contains_any "Meru"
+OR
+twitter.text contains_any "Taita"
+OR
+twitter.text contains_any "Samburu"
+OR
+twitter.text contains_any "Kuria"
+OR
+twitter.text contains_any "Orma"
+OR
+twitter.text contains_any "Oromo"
+OR
+twitter.text contains_any "Teso"
+OR
+twitter.text contains_any "Tharaka" 
+OR
+twitter.text contains_any "Borana" 
+OR
+twitter.text contains_any "Basuba"
+OR
+twitter.text contains_any "Swahili"
+OR
+twitter.text contains_any "Gabra"
+OR
+twitter.text contains_any "Nandi"
+OR
+twitter.text contains_any "Bajuni"
+OR 
+twitter.text contains_any "Bukusu"
+OR
+twitter.text contains_any "Dahalo"
+OR
+twitter.text contains_any "Isukha"
+OR
+twitter.text contains_any "Kore"
+OR
+twitter.text contains_any "Maragoli"
+OR 
+twitter.text contains_any "Marama"
+OR
+twitter.text contains_any "Ogiek"
+OR
+twitter.text contains_any "Pokomo"
+OR 
+twitter.text contains_any "Sengwer"
+OR 
+twitter.text contains_any "Suba"
+OR
+twitter.text contains_any "Tachoni"
+OR
+twitter.text contains_any "Taveta"
+OR
+twitter.text contains_any "Watha"
+OR
+twitter.text contains_any "Yiaku"
+OR
+twitter.text contains_any "Njemps"
+OR
+twitter.text contains_any "Nandi"
+OR
+twitter.text contains_any "Kipsigis"
+OR
+twitter.text contains_any "Tugen"
+OR
+twitter.text contains_any "Pokot"
+OR
+twitter.text contains_any "Marakwet"
+OR
+twitter.text contains_any "Keiyo"
+OR
+twitter.text contains_any "Sabaot"
+OR
+twitter.text contains_any "Nubi"
+OR
+twitter.text contains_any "Waarabu"
+OR 
+twitter.text contains_any "Wahindi"
+OR
+twitter.text contains_any "Kasarani"
